@@ -1,0 +1,18 @@
+button {
+  display: inline-block;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #6898ff;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+  &:hover {
+    background-color: #6898ffce;
+  }
+}

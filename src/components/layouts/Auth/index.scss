@@ -1,0 +1,23 @@
+.auth-layout {
+  display: flex;
+  min-height: 100vh;
+  & > div {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  & > :first-child {
+    background: #dfecff;
+    text-align: center;
+    > * {
+      width: 50%;
+    }
+
+    > img {
+      width: 150px;
+    }
+  }
+}
