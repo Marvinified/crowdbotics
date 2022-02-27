@@ -5,8 +5,8 @@ import { routes } from './configs/routes';
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
           {
             routes.map(route => {
               return (
@@ -19,8 +19,9 @@ function App() {
               );
             })
           }
-        </Suspense>
-      </Switch>
+          <Route component={() => <h1>404</h1>} />
+        </Switch>
+      </Suspense>
     </BrowserRouter>
   );
 }

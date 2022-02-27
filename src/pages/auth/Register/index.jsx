@@ -6,14 +6,15 @@ const Register = () => {
     return (
         <AuthLayout>
             <div>
-                <div className='login-form'>
+                <div className='register-form'>
                     <h2>
-                        Welcome back,
+                        Let's get you <b>setup</b>,
                     </h2>
                     <p>
-                        Login to your account to continue.
+                        Build app at a speed you've never experienced before.
                     </p>
                     <form>
+                        <Input label="Enter Full Name" required />
                         <Input label="Enter Email" required />
                         <Input label="Enter Password" type="password" required />
                         <Button> Proceed </Button>

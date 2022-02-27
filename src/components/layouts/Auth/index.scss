@@ -20,4 +20,14 @@
       width: 150px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    & > :first-child {
+      display: none;
+    }
+    & > div {
+      width: 100%;
+      padding: 0.5rem;
+    }
+  }
 }
