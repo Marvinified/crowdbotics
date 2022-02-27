@@ -23,4 +23,8 @@
     outline: none;
     width: 100%;
   }
+  & > .error {
+    padding: 0;
+    width: 100%;
+  }
 }

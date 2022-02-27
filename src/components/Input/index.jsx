@@ -13,6 +13,12 @@ export const Input = (props) => {
                 }
             </label>
             <input {...props} />
+            {
+                props.error &&
+                <span className='error'>
+                    {props.error}
+                </span>
+            }
         </div>
     )
 }
